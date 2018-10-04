@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="HOFTools.EditTreeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HOFTools"
+             xmlns:grids="http://schemas.actiprosoftware.com/winfx/xaml/grids"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="256" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+    <UserControl.InputBindings>
+        <KeyBinding Key="F5" Command="{Binding RefreshCommand}"/>
+    </UserControl.InputBindings>
+    <UserControl.DataContext>
+        <local:EditTreeViewModel/>
+    </UserControl.DataContext>
+        <grids:TreeListBox HorizontalAlignment="Center" VerticalAlignment="Center" Width="256" Height="450"
+                           IsRootItemVisible="false"
+                           SelectionMode="Extended"
+                           DisplayMemberPath="Name"
+                           RootItem="{Binding Root, Mode=TwoWay}"
+                           SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
+                           >
+            <grids:TreeListBox.ItemAdapter>
+                <grids:TreeListBoxItemAdapter
+                ChildrenBinding="{Binding Children, Mode=OneTime}"
+                IsExpandedBinding="{Binding IsExpanded, Mode=TwoWay}"
+                IsSelectedBinding="{Binding IsSelected, Mode=TwoWay}"
+                />
+            </grids:TreeListBox.ItemAdapter>
+        </grids:TreeListBox>
+</UserControl>
