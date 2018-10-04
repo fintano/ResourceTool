@@ -1,0 +1,10 @@
+C:\Users\finta\source\repos\ResourceTool\ResourceTool\bin\Debug\ResourceTool.exe.config
+C:\Users\finta\source\repos\ResourceTool\ResourceTool\bin\Debug\ResourceTool.exe
+C:\Users\finta\source\repos\ResourceTool\ResourceTool\bin\Debug\ResourceTool.pdb
+C:\Users\finta\source\repos\ResourceTool\ResourceTool\obj\Debug\ResourceTool.csprojAssemblyReference.cache
+C:\Users\finta\source\repos\ResourceTool\ResourceTool\obj\Debug\ResourceTool.csproj.ResolveComReference.cache
+C:\Users\finta\source\repos\ResourceTool\ResourceTool\obj\Debug\ResourceTool.Properties.Resources.resources
+C:\Users\finta\source\repos\ResourceTool\ResourceTool\obj\Debug\ResourceTool.csproj.GenerateResource.cache
+C:\Users\finta\source\repos\ResourceTool\ResourceTool\obj\Debug\ResourceTool.csproj.CoreCompileInputs.cache
+C:\Users\finta\source\repos\ResourceTool\ResourceTool\obj\Debug\ResourceTool.exe
+C:\Users\finta\source\repos\ResourceTool\ResourceTool\obj\Debug\ResourceTool.pdb

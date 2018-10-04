@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceTool", "ResourceTool\ResourceTool.csproj", "{D4D80D20-816B-4163-BE77-7388BAC7BAE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceToolTests", "ResourceToolTests\ResourceToolTests.csproj", "{625C73DC-1F88-49DD-80FB-6F3D530C4E20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4D80D20-816B-4163-BE77-7388BAC7BAE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D80D20-816B-4163-BE77-7388BAC7BAE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D80D20-816B-4163-BE77-7388BAC7BAE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D80D20-816B-4163-BE77-7388BAC7BAE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625C73DC-1F88-49DD-80FB-6F3D530C4E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625C73DC-1F88-49DD-80FB-6F3D530C4E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625C73DC-1F88-49DD-80FB-6F3D530C4E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625C73DC-1F88-49DD-80FB-6F3D530C4E20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {786D5F89-7815-4892-B667-974B0A481C47}
+	EndGlobalSection
+EndGlobal
