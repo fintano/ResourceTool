@@ -12,7 +12,7 @@ namespace HOFTools
 {
     class SchemaDataGridViewModel
     {
-        readonly private string dirPath = @"D:\HandOfFate2\";
+        readonly private string dirPath = Config.DirPath;
 
         private ObservableCollection<SchemaSpecification> _schema = new ObservableCollection<SchemaSpecification>();
         public ObservableCollection<SchemaSpecification> ColumnSchemas

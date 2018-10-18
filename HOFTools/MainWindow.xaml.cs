@@ -22,6 +22,7 @@ namespace HOFTools
     {
         public MainWindow()
         {
+            Config.GetConfigs();
             InitializeComponent();
         }
     }
