@@ -53,6 +53,7 @@
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -73,6 +74,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="CommandHandler.cs" />
+    <Compile Include="Config.cs" />
     <Compile Include="ViewModel\SchemaDataGridViewModel.cs" />
     <Compile Include="SchemaSpecification.cs" />
     <Compile Include="View\EditDataGridView.xaml.cs">

@@ -13,7 +13,7 @@ namespace HOFTools
 {
     public class EditTreeViewModel : ObservableObjectBase
     {
-        readonly private string dirPath = @"D:\HandOfFate2\";
+        readonly private string dirPath = Config.DirPath;
 
         private DataStore store;
         private TreeNodeModel _root;
