@@ -7,13 +7,19 @@
              xmlns:local="clr-namespace:HOFTools"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <UserControl.DataContext>
-        <local:SchemaDataGridViewModel/>
-    </UserControl.DataContext>
     <UserControl.InputBindings>
         <KeyBinding Gesture="Ctrl+S" Command="{Binding SaveCommand}"/>
     </UserControl.InputBindings>
 
-    <datagrid:ThemedDataGrid CanUserAddRows="True" ItemsSource="{Binding ColumnSchemas}">
-    </datagrid:ThemedDataGrid>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <datagrid:ThemedDataGrid Grid.Row="0" CanUserAddRows="True" ItemsSource="{Binding ColumnSchemas}"/>
+        <GridSplitter BorderThickness="1" Grid.Row="1"/>
+        <Button Grid.Row="2" HorizontalAlignment="Right" MaxWidth="100" Margin="1,1,50,1" MaxHeight="50" Content="NewSchema" 
+                Command="{Binding NewBtnCommand}"/>
+    </Grid>
 </UserControl>

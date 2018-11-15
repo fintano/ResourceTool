@@ -10,10 +10,7 @@
     <UserControl.InputBindings>
         <KeyBinding Key="F5" Command="{Binding RefreshCommand}"/>
     </UserControl.InputBindings>
-    <UserControl.DataContext>
-        <local:EditTreeViewModel/>
-    </UserControl.DataContext>
-        <grids:TreeListBox HorizontalAlignment="Center" VerticalAlignment="Center" Width="256" Height="450"
+    <grids:TreeListBox HorizontalAlignment="Center" VerticalAlignment="Center" Width="256" Height="450"
                            IsRootItemVisible="false"
                            SelectionMode="Extended"
                            DisplayMemberPath="Name"
