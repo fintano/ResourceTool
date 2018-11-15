@@ -29,6 +29,16 @@ namespace HOFTools
             }
         }
 
+        public SchemaDataGridViewModel()
+        {
+            ColumnSchemas.Add(new SchemaSpecification()
+            {
+                ColumnName = "Id",
+                Type = ColumnType.Int32,
+                PrimaryKey = true,
+            });
+        }
+
         private void Save()
         {
             string tableName = string.Empty;
